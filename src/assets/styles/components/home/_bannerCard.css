@@ -1,0 +1,143 @@
+.BannerCard {
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.BannerCard__image {
+  width: 100vw;
+  height: 100%;
+  /* // margin-top: -30vh; */
+  filter: brightness(80%);
+}
+
+.BannerCard__header {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.BannerCard__content {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  justify-content: center;
+}
+
+.BannerCard__links {
+  margin-top: 2em;
+}
+
+.BannerCard__button--left,
+.BannerCard__button--right {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+.BannerCard__button--left {
+  background: black;
+  padding: 1em;
+  margin-right: 2em;
+}
+
+.BannerCard__button--right {
+  border: solid 1px black;
+  padding: calc(1em - 1px);
+}
+
+@media(min-width: 500px) {
+  .BannerCard {
+    width: 100vw;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .BannerCard__image {
+    width: 100vw;
+    height: 100%;
+    margin-top: 0;
+    filter: brightness(80%);
+  }
+  
+}
+
+@media(min-width: 700px) {
+  .BannerCard {
+    width: 100vw;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .BannerCard__image {
+    width: 100vw;
+    height: unset;
+    margin-top: -10vh;
+    filter: brightness(80%);
+  }
+  
+}
+
+
+@media(min-width: 800px) {
+  .BannerCard {
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .BannerCard__image {
+    width: 100vw;
+    margin-top: -30vh;
+    filter: brightness(80%);
+  }
+  
+  .BannerCard__header {
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+  }
+  
+  .BannerCard__content {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+  }
+  
+  .BannerCard__links {
+    margin-top: 2em;
+  }
+  
+  .BannerCard__button--left,
+  .BannerCard__button--right {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+  }
+  
+  .BannerCard__button--left {
+    background: black;
+    padding: 1em;
+    margin-right: 2em;
+  }
+  
+  .BannerCard__button--right {
+    border: solid 1px black;
+    padding: calc(1em - 1px);
+  }
+}

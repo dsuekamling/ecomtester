@@ -1,0 +1,43 @@
+.Filter {
+  display: flex;
+  flex-direction: column;
+  margin: 25vh auto 5vh auto;
+  width: 100%;
+  align-items: center;
+}
+
+.Filter__header {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.Filter__filters {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media(min-width: 450px) {
+  .Filter__filters {
+    display: inline-block;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+}
+
+@media(min-width: 800px) {
+  .Filter {
+    display: flex;
+    flex-direction: column;
+    margin: 15vh auto 0 auto;
+    width: 100vw;
+    align-items: center;
+  }
+
+  .Filter__filters {
+    width: auto;
+    margin-top: 2vw;
+  }
+
+}
